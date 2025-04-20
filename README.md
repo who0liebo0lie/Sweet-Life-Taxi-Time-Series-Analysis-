@@ -98,7 +98,17 @@ Final forecast model achieved a Mean Absolute Error (MAE) of ~15.3 rides/day
 GridSearchCV was able to provide the best hyperparameters for the different types of models being utilized.  Training set evaluated Random Forest, Decision Tree, Gradient Boosting, and LightGBM.  In analyzing performance on the test set the best model was Gradient Boosting with an RMSE of 27.54. Grdient Boosting was then run with the test set data.  The final RMSE was 27.54.
 
 📸 Screenshots
+### 📈 Time Series Plot  
+![Time Series](images_sweetlife/sweetlife_image_1.png)
 
+### 🌀 Seasonal Decomposition  
+![Seasonality](images_sweetlife/sweetlife_image_2.png)
+
+### 🔁 Forecast vs Actual  
+![Forecast](images_sweetlife/sweetlife_image_3.png)
+
+### 📉 Residual Analysis  
+![Residuals](images_sweetlife/sweetlife_image_4.png)
 
 🤝 Contributing
 Ideas for improving this project? Want to add Prophet, LSTM, or hybrid models? Fork the repo and submit a pull request!
